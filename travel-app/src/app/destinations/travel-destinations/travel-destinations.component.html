@@ -1,0 +1,7 @@
+<div class="destinations-list-container">
+  <ng-container
+    *ngFor="let thisDestination of arrayOfDestinations; let index = index"
+  >
+    <app-travel-card [destination]="thisDestination"></app-travel-card>
+  </ng-container>
+</div>
